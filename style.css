@@ -1,0 +1,48 @@
+.container {
+  margin: 10px auto;
+  max-width: 750px;
+}
+.control {
+  text-align: center;
+}
+.upload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.upload + label {
+  font-size: 1.1em;
+  color: white;
+  background-color: #57c;
+  display: inline-block;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.upload + label:hover {
+  background-color: #35c;
+}
+.row {
+  border: 2px solid white;
+  background-color: #fbfbfb;
+  padding: 5px;
+}
+.row:hover {
+  background-color: #ddf;
+}
+.filename {
+  display: inline-block;
+  padding: 0 10px;
+}
+.message {
+  padding: 0 10px;
+  color: crimson;
+}
+.download {
+  padding: 0 10px;
+}
